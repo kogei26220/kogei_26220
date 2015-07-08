@@ -1,0 +1,28 @@
+# git config --global user.name "kogei26220"
+# git config --global user.email kogei_26220@yahoo.co.jp
+# cd ~
+# mkdir dotfiles
+# mv .vimrc dotfiles
+# mv .gvimrc dotfiles
+# mv .xmodmap dotfiles
+# mv .bash_profile dotfiles
+# mv .vim dotfiles
+# ln -s dotfiles/.vimrc .vimrc
+# ln -s dotfiles/.gvimrc .gvimrc
+# ln -s dotfiles/.xmodmap .xmodmap
+# ln -s dotfiles/.bash_profile .bash_profile
+# ln -s dotfiles/.vim .vim
+# cd dotfiles
+# git init
+# git add .
+# git commit -m "first commit"
+# git remote add origin git@github.com:kogei26220/dotfiles.git
+# git push -u origin master
+Counting objects: 13, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (13/13), 9.96 KiB, done.
+Total 13 (delta 0), reused 0 (delta 0)
+To git@github.com:kogei26220/dotfiles.git
+* [new branch] master -> master
+Branch master set up to track remote branch master from origin.
